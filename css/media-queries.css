@@ -1,0 +1,42 @@
+@media (max-width: 950px) and (orientation: landscape) {
+    .section_hero__intro {
+        margin-top: 20px;
+    }
+    .header {
+        padding: 25px 0;
+    }
+}
+
+
+@media (min-width: 768px) {
+    * {
+        font-size: 12px;
+    }
+    .header {
+        padding: 35px 0;
+    }
+    .section_hero__description {
+        padding: 10px 45px;
+    }
+    .section_hero__leaf-bottom {
+        width: 550px;
+        height: 500px;
+        left: -150px;
+        bottom: 50px;
+        background-image: url("../images/leaf-2.png");
+    }
+    .section_hero__leaf-top {
+        width: 450px;
+        height: 500px;
+        right: -120px;
+        background-image: url("../images/leaf-1.png");
+    }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
