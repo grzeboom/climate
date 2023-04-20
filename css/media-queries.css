@@ -31,12 +31,49 @@
         right: -120px;
         background-image: url("../images/leaf-1.png");
     }
-}
+    .question {
+        width: 50%;
+    }
+    .questionnaire_input {
+        margin: 0 20px;
+    }
+    .section_questionnaire__leaf-top {
+        width: 600px;
+        height: 1050px;
+        background-image: url("../images/leaf-3.png");
+    }
 
-@media (min-width: 992px) {
+    .section_questionnaire__leaf-bottom {
+        width: 450px;
+        height: 500px;
+        left: 250px;
+        background-image: url("../images/leaf-1.png");
+    }
+    .section_hero__intro {
+        width: 65%;
+        margin: 100px auto 0 auto;
 
-}
+    }
+    .answer_description {
+        margin: 0 50px;
+    }
+    .answer_side {
+        width: 60vw;
+        height: 94vh;
+        top: 3vh;
+        transform: translateX(180%);
+    }
+    .answer_side__title {
+        margin-top: 15px;
+    }
+    .answer_side__text {
+        margin: 25px 0 15px 0;
+    }
 
-@media (min-width: 1200px) {
-
+    .answer_list li:nth-child(1) {
+        margin: 20px 0 13px 0;
+    }
+    .answer_list li:nth-child(5) {
+        margin: 20px 0 13px 0;
+    }
 }
